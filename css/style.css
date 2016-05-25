@@ -1,0 +1,173 @@
+body
+{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #404040;
+  color: #ffffff;
+}
+
+#wrapper
+{
+  width: 1024px;
+  margin: auto;
+}
+
+#top
+{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav
+{
+  text-align: center;
+  font-size: 32px;
+  background-color: #313131;
+  padding: 5px;
+}
+
+nav a
+{
+  color: #e8ffa2;
+  padding: 0 20px 0 20px;
+  text-decoration: none;
+}
+
+nav a:hover
+{
+  color: #7c8f5a;
+  /*text-decoration: underline;*/
+}
+
+footer
+{
+  background-color: #313131;
+  padding: 5px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+#top span
+{
+  font-size: 72px;
+}
+
+#content
+{
+  background: #444444;
+  width: 982px;
+  min-height: 309px;
+  border: 1px solid #313131;
+  padding: 20px;
+}
+
+#cbox
+{
+  margin: auto;
+  width: 380px;
+}
+
+#cbox h1
+{
+  font-size: 48px;
+}
+
+#cbox a
+{
+  color: orange;
+  text-decoration: none;
+}
+
+#cbox a:hover
+{
+  text-decoration: underline;
+}
+
+#error
+{
+  text-align: center;
+}
+
+.version
+{
+  padding: 10px 20px 10px 20px;
+}
+
+.rel
+{
+  position: relative;
+  height: 20px;
+}
+
+.abs_social
+{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #313131;
+  -webkit-border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 0 0;
+}
+
+.abs_version
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #313131;
+  -webkit-border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 0 0;
+}
+
+.hr
+{
+  width: 50%;
+  height: 5px;
+  border: 2px solid #819560;
+  background-color: #d2f597;
+  margin: auto;
+}
+
+.vr
+{
+  width: 2px;
+  height: 20px;
+  background: red;
+  display: inline-block;
+}
+
+.g
+{
+  color: #e8ffa2;
+}
+
+.r
+{
+  color: #b86752;
+}
+
+.r2
+{
+  color: #8d333c;
+}
+
+.active
+{
+  color: #7c8f5a;
+}
+
+.cfield
+{
+  display: block;
+  font-size: 24px;
+}
+
+.icon
+{
+  position: relative;
+}
+
+.icon:hover
+{
+  top: -3px;
+}
